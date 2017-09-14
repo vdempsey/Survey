@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-3">Welcome to the family!</h1>
+        <p class="lead">Now, let's get to know each other better</p>
+        <hr class="my-4">
+      </div>
+      <div id="form-container">
+        <form>
+          <div class="form-group">
+            <label class="form-control-label" for="formGroupExampleInput">Your Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Be aware, you will get a nickname by next week">
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" for="formGroupExampleInput2">Your favorite tunes</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Every Friday we dance like nobody's watching from 11-12">
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" for="formGroupExampleInput2">Pick a team</label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+              <option selected>Think twice before you choose</option>
+              <option value="1">Gummy Bears</option>
+              <option value="2">Gummy Worms</option>
+            </select>
+          </div>
+          <fieldset class="form-group">
+      <div class="row">
+
+        <div class="col-sm-10">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              Don't talk to me, unless you brought my coffee.
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              I keep in mind my Vente 401K every morning I pass Starbucks.
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
